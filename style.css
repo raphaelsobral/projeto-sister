@@ -47,20 +47,21 @@ header > h1 {
 }
 
 #one {
-    background-image: url(images/pic1.jpg)
+    background-image: url(images/pic2.jpg);
+    background-position: left center;
 }
 
 #two {
-    background-image: url(images/pic2.jpg);
+    background-image: url(images/pic3-rem.jpg);
 }
 
 #three {
-    background-image: url(images/pic3.jpg);
+    background-image: url(images/pic1.jpg);
 }
 
 .text {
     font-family: var(--font2);
-    height: 100vh;
+    height: 80vh;
     position: relative;
     padding: 10px;
 }
@@ -115,12 +116,12 @@ svg {
 }
 
 @media only screen and (min-width:820px) {
-    #one {
-        background-position: center right;
+    #three {
+       background-image: url(images/pic1-g.jpg);
     }
 
 
-    #two {
-        background-position: top center;
+    #one {
+        background-image: url(images/pic2-g.jpg);
     }
 }
